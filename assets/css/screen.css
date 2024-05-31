@@ -1166,7 +1166,7 @@ html.no-infinite-scroll .pagination {
 /* ---------------------------------------------------------- */
 
 .article {
-    padding: max(8vmin, 40px) 0 max(8vmin, 64px);
+    padding: 60px 0 64px;
     word-break: break-word;
 }
 
@@ -1175,7 +1175,7 @@ html.no-infinite-scroll .pagination {
 }
 
 .article-header {
-    padding: 0 0 max(6.4vmin, 40px) 0;
+    padding: 0 0 52px 0;
 }
 
 .page-template .article-header {
@@ -1214,7 +1214,7 @@ html.no-infinite-scroll .pagination {
 .gh-canvas .article-image {
     grid-column: wide-start / wide-end;
     width: 100%;
-    margin: max(6.4vmin, 40px) 0 0;
+    margin: 60px 0 0;
 }
 
 .image-full .article-image {
@@ -1291,7 +1291,7 @@ headings, text, images and lists. We deal with cards lower down. */
 
 /* Default vertical spacing */
 .gh-content > * + * {
-    margin-top: max(3.2vmin, 24px);
+    margin-top: 32px !important;
     margin-bottom: 0;
 }
 
@@ -1472,7 +1472,6 @@ except for when immediately preceeded by a heading */
     margin-bottom: 0;
 }
 .gh-content .kg-card + :not(.kg-card) {
-    margin-top: 6vmin;
     margin-bottom: 0;
 }
 
@@ -1761,7 +1760,7 @@ iframe.instagram-media + script + :not([id]) {
 }
 
 .footer-cta + .read-more-wrap {
-    margin-top: max(12vmin, 72px);
+    margin-top: 72px;
 }
 
 .read-more {
@@ -1973,7 +1972,7 @@ iframe.instagram-media + script + :not([id]) {
 
 .site-footer {
     position: relative;
-    margin: max(12vmin, 64px) 0 0 0;
+    margin: 100px 0 0 0;
     padding-top: 48px;
     padding-bottom: 40px;
     background-color: #4D00B4 !important;
